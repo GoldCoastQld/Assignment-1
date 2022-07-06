@@ -1,0 +1,10 @@
+body{ font-size: 15px;}
+
+.banner img{
+    width: 100%; 
+    margin-bottom: 30px%;
+    
+  }
+.heading{
+    color: aliceblue; position: absolute; top: 50%; width: 100%; text-align: center; font-size: 3rem;
+}
