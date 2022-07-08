@@ -1,10 +1,66 @@
-body{ font-size: 15px;}
-
-.banner img{
-    width: 100%; 
-    margin-bottom: 30px%;
+body{ font-family: 'Poppins', sans-serif; font-family: 'Prata', serif; font-family: 'PT Serif', serif;
+    ;
+    }
+    .container{
+        position: relative; 
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(donation0.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    } 
+    h1{
+        position: relative;
+        font-size: 100px;
+        color: #0b96d6;
+        line-height: 0.9;
+        filter: grayscale(15%);
+        filter: brightness(80%);
+         
+    } 
     
-  }
-.heading{
-    color: aliceblue; position: absolute; top: 50%; width: 100%; text-align: center; font-size: 3rem;
-}
+    .apple{
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        border-radius: 5px; 
+    
+    }
+    .link-button{
+        align-content: center;
+        width: 100px; height: auto;
+        padding: 25%px;
+        background-color: orangered;
+        border-radius: 5px;
+        text-decoration: none;
+        border-style: 5px; 
+            
+    }
+    
+    .flex-container{
+        width: 100%; height: auto;
+        display: flex; flex-direction: row;
+        justify-content: center;
+       
+        
+        
+    }
+    .flex-box{
+        width: 200px; height: 200px; background-color: rgb(236, 229, 229);
+        color: rgb(89, 140, 184); font-size: 25px; text-align: center;
+        line-height: 200px; border-radius: 35px; margin: 20px; 
+        justify-items: auto;
+    } 
+     
+       
+    .plan{
+        display: flex; flex-direction: row;
+        width: 100%; height: auto;
+        justify-content: center; 
+    }
+    
+    
